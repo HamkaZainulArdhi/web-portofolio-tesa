@@ -1,0 +1,43 @@
+import { AchievementItem } from "@/common/types/achievements";
+
+export const mockAchievements: AchievementItem[] = [
+  {
+    id: 1,
+    credential_id: "CERT-2023-001",
+    slug: "juara-hackathon",
+    name: "Juara Hackathon Nasional",
+    issuing_organization: "Dicoding Indonesia",
+    category: "certificate",
+    url_credential: "https://example.com/credential/1",
+    issue_date: "2023-07-01",
+    expiration_date: undefined,
+    image: "/images/achievements/hackathon.jpg",
+    is_show: true,
+  },
+  {
+    id: 2,
+    credential_id: "CERT-2022-002",
+    slug: "ux-ui-champ",
+    name: "UI/UX Design Champion",
+    issuing_organization: "Kementerian Kominfo",
+    category: "Design",
+    url_credential: "https://example.com/credential/2",
+    issue_date: "2022-11-15",
+    expiration_date: undefined,
+    image: "/images/achievements/uiux.jpg",
+    is_show: true,
+  },
+  {
+    id: 3,
+    credential_id: "CERT-2021-003",
+    slug: "aws-certification",
+    name: "AWS Certified Cloud Practitioner",
+    issuing_organization: "Amazon Web Services",
+    category: "Certification",
+    url_credential: "https://example.com/credential/3",
+    issue_date: "2021-09-10",
+    expiration_date: "2024-09-10",
+    image: "/images/achievements/aws.jpg",
+    is_show: true,
+  },
+];

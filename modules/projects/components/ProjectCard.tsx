@@ -22,7 +22,7 @@ const ProjectCard = ({
     description.slice(0, 80) + (description.length > 80 ? "..." : "");
 
   return (
-    <Link href={`/projects/${slug}`}>
+    <Link href={`${slug}`} target="_blank">
       <Card className="group relative cursor-pointer">
         {is_featured && (
           <div className="absolute right-0 top-0 z-10 flex items-center gap-x-1 rounded-bl-lg rounded-tr-lg bg-cyan-500 px-2 py-1 text-sm font-medium text-neutral-900">

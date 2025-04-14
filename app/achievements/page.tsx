@@ -10,7 +10,8 @@ const AchievementsPage = () => {
   return (
     <Container data-aos="fade-up">
       <PageHeading title={t("title")} description={t("description")} />
-      <Achievements />
+      {/* <Achievements /> */}
+      <h1 className="text-5xl font-semibold text-gray-600 mx-auto text-opacity-40">Coming soon yee</h1>
     </Container>
   );
 };

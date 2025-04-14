@@ -1,20 +1,20 @@
 {
   "HomePage": {
-    "intro": "Hi, I'm Satria Bahari",
-    "location": "Based in Jambi, Indonesia 🇮🇩",
+    "intro": "Hi, I'm Tesa Adillah",
+    "location": "Based in Bekasi, Indonesia 🇮🇩",
     "location_type": "Onsite",
-    "resume": "Passionate and seasoned Software Engineer with a strong focus on frontend development. Proficient in TypeScript and well-versed in all aspects of web technologies. Collaborative team player dedicated to delivering efficient, scalable, and visually appealing web applications.",
+    "resume": "Passionate and dedicated Primary School Teacher with a strong foundation in early childhood and primary education. Experienced in creating engaging and inclusive learning environments that foster academic growth and character development. A collaborative educator committed to nurturing students’ potential through creative teaching methods, effective classroom management, and continuous professional development.",
     "skills": {
       "title": "Skills",
       "sub_title": "My professional skills."
     },
     "services": {
-      "title": "Service",
-      "sub_title": "I work as a freelancer to develop exceptional websites for brands, companies, institutions, and startups, focusing on strategic web solutions.",
+      "title": "Educational Projects",
+      "sub_title": "As a student majoring in education, I actively engage in teaching-related projects such as lesson planning, tutoring, and developing creative learning media.",
       "cta": {
-        "title": "Let's work together!",
-        "sub_title": "I'm open for freelance projects, feel free to email me to see how can we collaborate.",
-        "button": "Contact me"
+        "title": "Interested in collaborating?",
+        "sub_title": "I'm open to learning opportunities, volunteer teaching, and education-based initiatives. Feel free to reach out!",
+        "button": "Let's connect"
       }
     }
   },
@@ -22,62 +22,63 @@
     "title": "About",
     "description": "A short story of me",
     "resume": {
-      "paragraf_1": "Hello there! Thank you for visiting my personal website. I'm Satria Bahari, a student majoring in Information Systems at the University of Jambi. I have a strong interest in frontend development. With a solid foundation in JavaScript and TypeScript, as well as a comprehensive understanding of various frontend libraries and frameworks, I have navigated the ever-evolving landscape of web development with enthusiasm and dedication.",
+      "paragraf_1": "Hello there! Thank you for visiting my personal website. I'm Tesa Adillah, a student majoring in Primary School Teacher Education at the University of Jambi. I have a strong passion for teaching and learning. With a solid understanding of child development and educational strategies, I approach every teaching opportunity with creativity, patience, and a deep commitment to student success and well-being.",
 
-      "paragraf_2": "I focus on creating web applications that not only provide precise experiences but are also user-friendly. My specialization includes JavaScript and TypeScript, along with frameworks such as React, Vite, and Next.js. As a quick learner and adaptive thinker, I thrive in a dynamic environment where innovation is a driving force. My collaborative nature allows me to seamlessly integrate with teams, contributing not only to my technical skills but also embodying a humble attitude that values input from every team member.",
+      "paragraf_2": "I focus on creating classroom environments that support growth and inspire curiosity. My skills include lesson planning, classroom management, and child-centered instruction. As an eager learner and reflective educator, I thrive in collaborative settings where I can share ideas and grow. My kind and open attitude helps me connect with students, parents, and fellow educators to create a positive learning experience for everyone.",
 
-      "paragraf_3": "I strongly believe that effective communication is crucial for success in any role. I am adaptable, think efficiently, and always strive for the best. My experiences have equipped me with analytical skills and strong leadership abilities. I am comfortable working collaboratively in a team and am excited about the opportunity to contribute to team success. Looking forward to the possibility of collaboration!"
+      "paragraf_3": "Outside of academics, I actively participate in various training programs, seminars, and educational projects to broaden my perspective and enhance my teaching skills. I am also passionate about integrating technology into the learning process, utilizing interactive digital media and educational platforms to create more engaging experiences. By continuously learning and innovating. I aspire to become an adaptive and inspiring educator who brings positive impact to future generations."
+
     },
     "career": {
       "title": "Career",
       "sub_title": "My professional career journey.",
       "careers": {
         "career_0": {
-          "position": "Head of Technology in the Research and Technology Division",
-          "company": "Himpunan Mahasiswa Sistem Informasi Universitas Jambi (HIMASI UNJA)",
-          "logo": "/images/careers/himasi-unja.jpeg",
-          "location": "Jambi, Indonesia 🇮🇩",
+          "position": "President Mahasiswa Universitas Presiden ",
+          "company": "Badan Eksekutif Mahasiswa Universitas Presiden",
+          "logo": "/images/careers/bem-up.png",
+          "location": "Bekasi, Indonesia 🇮🇩",
           "location_type": "Onsite",
-          "type": "Part-time",
+          "type": "Organisasi",
           "start_date": "2024-01",
           "end_date": null,
-          "industry": "school",
-          "link": "https://himasi.unja.ac.id/"
+          "industry": "college",
+          "link": "#"
         },
         "career_1": {
-          "position": "Mobile Development Cohort",
-          "company": "Bangkit Academy led by Google, Tokopedia, Gojek & Traveloka",
-          "logo": "/images/careers/bangkit.png",
-          "location": "Bandung, Indonesia 🇮🇩",
+          "position": "lorem ipsum dolor sit amet",
+          "company": "lorem ipsum dolor sit amet",
+          "logo": "/images/careers/bem-up.png",
+          "location": "Bekasi, Indonesia 🇮🇩",
           "location_type": "Remote",
-          "type": "Part-time",
+          "type": "Internship",
           "start_date": "2024-12",
           "end_date": "2025-12",
-          "industry": "school",
-          "link": "https://grow.google/intl/id_id/bangkit/?tab=mobile-development",
+          "industry": "school Teaching",
+          "link": "#",
           "responsibilities": {
-            "responsibility_1": "Mastered Android development using Kotlin, Jetpack Components, and modern tools like Room Database and DataStore for state and data management.",
-            "responsibility_2": "Gained hands-on experience with ViewModel, RecyclerView, and Hilt for dependency injection to create robust and scalable mobile applications.",
-            "responsibility_3": "Collaborated with a cross-functional team to develop a Company-Based Capstone Project, applying Agile methodologies and real-world problem-solving.",
-            "responsibility_4": "Enhanced teamwork, problem-solving, and communication skills in a multicultural environment."
+            "responsibility_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "responsibility_2": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "responsibility_3": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+            "responsibility_4": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
           }
         },
         "career_2": {
-          "position": "Mobile Developer",
-          "company": "Pt. Amanah Karya Indonesia (Amanah Corp)",
-          "logo": "/images/careers/amanah-karya-indonesia.jpeg",
-          "location": "Depok, Indonesia 🇮🇩",
+          "position": "lorem ipsum dolor sit amet",
+          "company": "lorem ipsum dolor sit amet",
+          "logo": "/images/careers/bem-up.png",
+          "location": "Bekasi, Indonesia 🇮🇩",
           "location_type": "Remote",
           "type": "Internship",
           "start_date": "2024-12",
           "end_date": "2025-12",
           "industry": "school",
-          "link": "https://amanahcorp.co.id/",
-          "responsibilities": {
-            "responsibility_1": "Designed and developed a mobile application using Kotlin, incorporating Room Database, Hilt, and ViewModel for optimal performance and scalability.",
-            "responsibility_2": "Implemented secure and user-friendly features tailored to the berbagi.link platform to improve user engagement and accessibility.",
-            "responsibility_3": "Worked closely with PT Amanah Corp to ensure alignment with business objectives and deliver impactful, real-world solutions.",
-            "responsibility_4": "Strengthened technical and soft skills, including problem-solving, teamwork, and communication, in a professional, multicultural setting."
+          "link": "#",
+         "responsibilities": {
+            "responsibility_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "responsibility_2": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "responsibility_3": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+            "responsibility_4": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
           }
         }
       }
@@ -85,14 +86,28 @@
     "education": {
       "title": "Education",
       "sub_title": "My educational journey.",
-      "school": "Jambi University",
-      "major": "Information Systems, (S.Kom)",
-      "logo": "/images/education/unja.png",
-      "location": "Jambi, Indonesia 🇮🇩",
-      "degree": "Bachelor's degree",
-      "start_year": 2022,
-      "end_year": 2026,
-      "link": "https://www.unja.ac.id"
+      "list": [
+        {
+          "school": "President University",
+          "major": "Primary School Teacher Education, (S.Pd)",
+          "logo": "/images/education/unja.png",
+          "location": "Bekasi, Indonesia 🇮🇩",
+          "degree": "Bachelor's degree",
+          "start_year": 2024,
+          "end_year": 2028,
+          "link": "#"
+        },
+        {
+          "school": "Darunnanjat Modern Boarding School ",
+          "major": "Childhood Education",
+          "logo": "/images/education/example.png",
+          "location": "Jakarta, Indonesia 🇮🇩",
+          "degree": "Mts & MA",
+          "start_year": 2016,
+          "end_year": 2022,
+          "link": "#"
+        }
+      ]
     },
     "resume_download_button": "Download Resume",
     "portfolio_download_button": "Download Portfolio"
@@ -172,7 +187,7 @@
     }
   },
   "ChatRoomPage": {
-    "title": "Chat Room",
+    "title": "ChatBot AI",
     "description": "Leave whatever you like to say, suggestions, questions or anything!",
     "placeholder": "Type a message...",
     "sign_in": {
@@ -225,7 +240,7 @@
   "Footer": {
     "hire": "Hire me.",
     "copyright_1": "COPYRIGHT © ",
-    "copyright_2": "Satria Bahari. All rights reserved."
+    "copyright_2": "Tesa Adillah. All rights reserved."
   },
   "LocaleSwitcher": {
     "en": "🇺🇸",
@@ -236,9 +251,8 @@
     "Home": "Home",
     "About": "About",
     "Achievements": "Achievements",
-    "Projects": "Projects",
-    "Dashboard": "Dashboard",
-    "Chat Room": "Chat Room",
+    "Experience": "Experience",
+    "ChatBot AI": "ChatBot AI",
     "Contact": "Contact"
   },
   "NotFoundPage": {

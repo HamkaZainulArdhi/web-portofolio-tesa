@@ -9,7 +9,7 @@ const Status = () => {
         transition={{ duration: 0.5, repeat: Infinity }}
       />
       <span className="text-sm font-thin text-neutral-600 dark:text-neutral-400">
-        Hire me.
+        Hi there.
       </span>
     </div>
   );

@@ -1,14 +1,24 @@
-import { EducationProps } from "../types/education";
-
-export const EDUCATION: EducationProps[] = [
+// education.ts
+export const EDUCATION = [
   {
-    school: "Universitas Jambi",
-    major: "Information Systems, (S.Kom)",
-    logo: "/images/education/unja.png",
-    location: "Jambi, Indonesia 🇮🇩",
+    school: "President University",
+    major: "Primary School Teacher Education, (S.Pd)",
+    logo: "/images/education/presu.png",
+    location: "Bekasi, Indonesia 🇮🇩",
     degree: "Bachelor's degree",
-    start_year: 2022,
-    end_year: 2026,
-    link: "https://www.unja.ac.id",
+    start_year: 2024,
+    end_year: 2028,
+    link: "#",
+  },
+  {
+    school: "PPM Darunnjat",
+    major: "Mipa & Agama",
+    logo: "/images/education/dnt.png",
+    location: "Brebes, Indonesia 🇮🇩",
+    degree: "Mts & MA",
+    start_year: 2016,
+    end_year: 2022,
+    link: "#",
   },
 ];
+

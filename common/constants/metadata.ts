@@ -1,16 +1,16 @@
 export const METADATA = {
-  creator: "Satria Bahari",
+  creator: "Tesa Adillah",
   description: "Personal website, portfolio, blog",
-  keyword: "satria, satria bahari",
+  keyword: "Tesa, Tesa adillah",
   authors: {
-    name: "Satria Bahari",
+    name: "Tesa Adillah",
     url: process.env.DOMAIN,
   },
   openGraph: {
     url: process.env.DOMAIN,
-    siteName: "Satria Bahari",
+    siteName: "Tesa Adillah",
     locale: "id-ID",
   },
-  exTitle: "| Satria Bahari",
+  exTitle: "| Tesa Adillah",
   profile: "/images/satria.jpg",
 };

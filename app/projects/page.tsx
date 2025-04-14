@@ -21,7 +21,8 @@ const ProjectsPage = () => {
   return (
     <Container data-aos="fade-up">
       <PageHeading title={t("title")} description={t("description")} />
-      <Projects />
+      {/* <Projects /> */}
+      <h1 className="text-5xl font-semibold text-gray-600 mx-auto text-opacity-40">Coming soon yee</h1>
     </Container>
   );
 };

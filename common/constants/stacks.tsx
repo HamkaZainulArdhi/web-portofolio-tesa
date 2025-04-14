@@ -1,40 +1,32 @@
-import { BiLogoPostgresql } from "react-icons/bi";
-import { BsFillBootstrapFill } from "react-icons/bs";
-import { TbBrandFramerMotion } from "react-icons/tb";
-import { FaNpm } from "react-icons/fa6";
 import {
-  SiCss3,
-  SiExpress,
-  SiFramer,
-  SiGithub,
-  SiHtml5,
-  SiJavascript,
-  SiNextdotjs,
-  SiNodedotjs,
-  SiPrisma,
-  SiReact,
-  SiTailwindcss,
-  SiTypescript,
-  SiVite,
-  SiLaravel,
-  SiPhp,
-  SiRedux,
-  SiVuedotjs,
-  SiFirebase,
-  SiReactrouter,
-  SiReacthookform,
-  SiReacttable,
-  SiMysql,
-  SiMongodb,
-  SiAstro,
-  SiBun,
-  SiYarn,
-  SiNestjs,
-  SiSupabase,
-  SiJest,
-  SiDocker,
-  SiKotlin
+  SiBookstack,
+  SiGoogleclassroom,
+  SiNotion,
+  SiCanva,
+  SiZoom,
+  SiTrello,
+  SiGoogledocs,
+  SiGoogleforms,
+  SiGrammarly,
+  SiKahoot,
+  SiDuolingo,
+  SiPrezi,
+  SiSlack
 } from "react-icons/si";
+
+import {
+  FaChalkboardTeacher,
+  FaBookReader,
+  FaChild,
+  FaMicrophoneAlt,
+  FaPencilAlt,
+  FaLanguage,
+  FaPaintBrush,
+  FaUsersCog,
+  FaLightbulb,
+  FaHeart,
+  FaHandsHelping
+} from "react-icons/fa";
 
 export type SkillProps = {
   [key: string]: JSX.Element;
@@ -43,44 +35,27 @@ export type SkillProps = {
 const iconSize = 22;
 
 export const STACKS: SkillProps = {
-  HTML: <SiHtml5 size={iconSize} className="text-orange-500" />,
-  CSS: <SiCss3 size={iconSize} className="text-blue-500" />,
-  Bootstrap: (
-    <BsFillBootstrapFill size={iconSize} className="text-violet-600" />
-  ),
-  TailwindCSS: <SiTailwindcss size={iconSize} className="text-cyan-400" />,
-  JavaScript: <SiJavascript size={iconSize} className="text-yellow-400" />,
-  TypeScript: <SiTypescript size={iconSize} className="text-blue-400" />,
-  "Vue.js": <SiVuedotjs size={iconSize} className="text-green-400" />,
-  "React.js": <SiReact size={iconSize} className="text-cyan-400" />,
-  "React Table": <SiReacttable size={iconSize} className="text-rose-600" />,
-  "React Hook Form": (
-    <SiReacthookform size={iconSize} className="text-pink-500" />
-  ),
-  "React Router": <SiReactrouter size={iconSize} className="text-red-500" />,
-  Vite: <SiVite size={iconSize} className="text-purple-500" />,
-  "Framer Motion": (
-    <TbBrandFramerMotion size={iconSize} className="text-fuchsia-500" />
-  ),
-  Redux: <SiRedux size={iconSize} className="text-violet-500" />,
-  "Astro.js": <SiAstro size={iconSize} className="text-pink-500" />,
-  "Next.js": <SiNextdotjs size={iconSize} />,
-  "Node.js": <SiNodedotjs size={iconSize} className="text-green-500" />,
-  "Express.js": <SiExpress size={iconSize} />,
-  "Nest.js": <SiNestjs size={iconSize} className="text-pink-700" />,
-  PHP: <SiPhp size={iconSize} className="text-indigo-400" />,
-  Laravel: <SiLaravel size={iconSize} className="text-red-600" />,
-  Prisma: <SiPrisma size={iconSize} className="text-teal-500" />,
-  Kotlin: <SiKotlin size={iconSize} className="text-purple-500" />,
-  PostgreSql: <BiLogoPostgresql size={iconSize} className="text-blue-400" />,
-  MySql: <SiMysql size={iconSize} className="text-blue-400" />,
-  MongoDb: <SiMongodb size={iconSize} className="text-green-600" />,
-  Firebase: <SiFirebase size={iconSize} className="text-yellow-500" />,
-  Supabase: <SiSupabase size={iconSize} className="text-emerald-500" />,
-  Jest: <SiJest size={iconSize} className="text-rose-400" />,
-  Docker: <SiDocker size={iconSize} className="text-blue-500" />,
-  Npm: <FaNpm size={iconSize} className="text-red-500" />,
-  Yarn: <SiYarn size={iconSize} className="text-sky-400" />,
-  bun: <SiBun size={iconSize} className="text-yellow-50" />,
-  Github: <SiGithub size={iconSize} />,
+  "TEFL / EYL": <FaLanguage size={iconSize} className="text-indigo-600" />,
+  "Phonics Instruction": <FaBookReader size={iconSize} className="text-orange-600" />,
+  "Storytelling": <FaChild size={iconSize} className="text-pink-500" />,
+  "Lesson Planning": <SiNotion size={iconSize} className="text-gray-800" />,
+  "Classroom Management": <FaChalkboardTeacher size={iconSize} className="text-green-700" />,
+  "Speaking Activities": <FaMicrophoneAlt size={iconSize} className="text-rose-500" />,
+  "Writing Practice": <FaPencilAlt size={iconSize} className="text-yellow-600" />,
+  "Game-Based Learning": <SiKahoot size={iconSize} className="text-purple-600" />,
+  "Assessment Tools": <SiGoogleforms size={iconSize} className="text-green-500" />,
+  "Google Docs": <SiGoogledocs size={iconSize} className="text-blue-500" />,
+  "Canva for Worksheets": <SiCanva size={iconSize} className="text-cyan-400" />,
+  "Grammarly": <SiGrammarly size={iconSize} className="text-green-600" />,
+  "Duolingo": <SiDuolingo size={iconSize} className="text-green-500" />,
+  "Zoom Teaching": <SiZoom size={iconSize} className="text-blue-400" />,
+  "Google Classroom": <SiGoogleclassroom size={iconSize} className="text-green-700" />,
+  "Reading Instruction": <SiBookstack size={iconSize} className="text-red-500" />,
+  "Art Integration": <FaPaintBrush size={iconSize} className="text-pink-400" />,
+  "Collaborative Learning": <FaUsersCog size={iconSize} className="text-amber-600" />,
+  "Critical Thinking": <FaLightbulb size={iconSize} className="text-yellow-500" />,
+  "Social-Emotional Learning": <FaHeart size={iconSize} className="text-rose-600" />,
+  "Peer Mentorship": <FaHandsHelping size={iconSize} className="text-blue-600" />,
+  "Prezi for Presentations": <SiPrezi size={iconSize} className="text-sky-500" />,
+  "Slack for Communication": <SiSlack size={iconSize} className="text-purple-500" />,
 };

@@ -1,29 +1,39 @@
-import { createClient } from "@/common/utils/server";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
+import axios from "axios";
 
-export const GET = async () => {
-  const supabase = createClient();
-  try {
-    const { data } = await supabase.from("messages").select();
-    return NextResponse.json(data, { status: 200 });
-  } catch (error) {
-    return NextResponse.json(
-      { message: "Internal Server Error" },
-      { status: 500 },
-    );
-  }
-};
-
-export const POST = async (req: Request) => {
-  const supabase = createClient();
+export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    await supabase.from("messages").insert([body]);
-    return NextResponse.json("Data saved successfully", { status: 200 });
+    const userMessage = body.message || "Halo";
+
+    const response = await axios.post(
+      "https://api.deepenglish.com/api/gpt_open_ai/chatnew",
+      {
+        messages: [
+          { role: "user", content: userMessage },
+          {
+            role: "system",
+            content:
+              "Gunakan bahasa Indonesia yang baik dan benar, Jangan Kaku",
+          },
+        ],
+        temperature: 1,
+        projectName: "wordpress",
+      },
+      {
+        headers: {
+          Authorization:
+            "Bearer UFkOfJaclj61OxoD7MnQknU1S2XwNdXMuSZA+EZGLkc=",
+        },
+      }
+    );
+
+    return NextResponse.json(response.data);
   } catch (error) {
+    console.error("🔥 ERROR:", error);
     return NextResponse.json(
-      { message: "Internal Server Error" },
-      { status: 500 },
+      { message: "Gagal memproses permintaan." },
+      { status: 500 }
     );
   }
-};
+}

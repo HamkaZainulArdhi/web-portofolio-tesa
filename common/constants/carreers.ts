@@ -5,7 +5,7 @@ export const CAREERS: CareerProps[] = [
     position: "Head of Technology in the Research and Technology Division",
     company:
       "Himpunan Mahasiswa Sistem Informasi Universitas Jambi (HIMASI UNJA)",
-    logo: "/images/careers/himasi-unja.jpeg",
+    logo: "/images/careers/bem-pu.png",
     location: "Jambi, Indonesia 🇮🇩",
     location_type: "Onsite",
     type: "Part-time",
@@ -21,7 +21,7 @@ export const CAREERS: CareerProps[] = [
   {
     position: "Mobile Development Cohort",
     company: "Bangkit Academy led by Google, Tokopedia, Gojek & Traveloka",
-    logo: "/images/careers/bangkit.png",
+    logo: "/images/careers/bem-pu.png",
     location: "Bandung, Indonesia 🇮🇩",
     location_type: "Remote",
     type: "Part-time",
@@ -39,7 +39,7 @@ export const CAREERS: CareerProps[] = [
   {
     position: "Mobile Developer",
     company: "Pt. Amanah Karya Indonesia (Amanah Corp)",
-    logo: "/images/careers/amanah-karya-indonesia.jpeg",
+    logo: "/images/careers/bem-pu.png",
     location: "Depok, Indonesia 🇮🇩",
     location_type: "Remote",
     type: "Part-time",

@@ -7,11 +7,12 @@ export interface MessageProps {
   is_reply?: boolean;
   reply_to?: string;
   created_at: string;
-  is_show?: boolean;
+  is_show?: boolean;  
 }
 
 export interface ChatListProps {
   messages: MessageProps[];
+  isWidget?: boolean;
 }
 
 export interface ChatInputProps {

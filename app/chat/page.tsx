@@ -18,9 +18,9 @@ const ContactPage = () => {
   const t = useTranslations("ChatRoomPage");
 
   return (
-    <Container data-aos="fade-up">
+    <Container  data-aos="fade-up">
       <PageHeading title={t("title")} description={t("description")} />
-      <ChatRoom />
+      <ChatRoom  />
     </Container>
   );
 };
