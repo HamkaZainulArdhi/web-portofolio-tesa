@@ -9,7 +9,7 @@ const NotFound = () => {
   return (
     <Container
       data-aos="fade-up"
-      className="flex h-full flex-col items-center justify-center gap-y-4  transition-all duration-300"
+      className="flex h-full flex-col items-center justify-center gap-y-5  transition-all duration-300"
     >
       <h1 className="text-6xl font-semibold text-neutral-700 dark:text-neutral-300">
         404
